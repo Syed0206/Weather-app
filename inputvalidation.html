@@ -1,0 +1,39 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My web project</title>
+</head>
+<body bgcolor="yellow">
+<h1  style="text-align: center;color: rgb(127, 0, 255)">All Food Items</h1>
+<h1  style="text-align: center;color: rgb(127, 0, 255)">Survey on Interested food items</h1>
+
+<table align="center">
+	<center>
+		<form action="index.html">
+		<tr>
+			<td>Name: </td><td><input type="text" name="Name" required></td>
+		</tr>
+		<tr>
+			<td>Age:</td><td><input type="text" name="Age" required min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="Male" >Male<input type="radio" name="Female" >Female<input type="radio" name="">Do not wish to disclose</td>
+		</tr>
+		<tr><td>E-mail:</td><td><input type="email" name="email" required></td></tr>
+		<tr>
+			<td>What type of cusine are you interested in :</td>
+			<td><select name="Indian">
+				<option value="Indian">Indian</option>
+				<option value="Veg">Veg</option>
+				<option value="Nonveg">Nonveg</option></select></td>
+		</tr>
+		<tr><td>What dishes are you interested in:</td><td><textarea rows="5" cols="10" required></textarea></td></tr>
+			<tr><td>Why did you like that dish:</td><td><textarea rows="10" cols="20" required></textarea></td></tr>
+			<tr><td><button type="submit">Clear</button></td><td><button type="submit">Submit</button></td></tr>
+	</form>
+	</center>
+</table>
+</body>
+</html>
